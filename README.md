@@ -1,0 +1,2 @@
+# smart-translator-app
+LEARNING A NEW LANGUAGE MADE EASY APP
