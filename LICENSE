@@ -1,25 +1,36 @@
 
 ---
 
-### **Why This Works**:
-- **No spaces in folder names**: `screenshots` instead of `App Screenshot`.  
-- **Case sensitivity**: Folders and filenames must match exactly.  
-- **Direct path**: `screenshots/translation.png` is a valid relative path.  
+### **How to Upload the Screenshot Properly**
+1. **Create the `screenshots` folder**:
+   - Go to your repo: [`https://github.com/fcozochi/smart-translator-app`](https://github.com/fcozochi/smart-translator-app).
+   - Click **`Add file`** → **`Create new file`**.
+   - Type `screenshots/placeholder.txt` (this forces GitHub to create the folder).
+   - Delete `placeholder.txt` afterward.
+
+2. **Upload `translation.png`**:
+   - Navigate to the `screenshots` folder.
+   - Click **`Add file`** → **`Upload files`**.
+   - Drag-and-drop `translation.png` into the upload area.
+   - Commit to the `main` branch.
 
 ---
 
-### **Verify the Link**:
-Test the direct URL to your image (replace `fcozochi` with your username):  
-`https://github.com/fcozochi/smart-translator-app/raw/main/screenshots/translation.png`  
+### **Verify the Image Link**
+After uploading, test the direct URL:  
+`https://raw.githubusercontent.com/fcozochi/smart-translator-app/main/screenshots/translation.png`
 
 If the image loads, your `README.md` will display it correctly.  
 
 ---
 
-### **Final Checks**:
-1. Ensure the `screenshots` folder exists:  
-   ![Screenshots Folder](https://i.imgur.com/5Ml5VvC.png)  
-2. Confirm `translation.png` is inside:  
-   ![Image in Folder](https://i.imgur.com/0L8hL9p.png)  
+### **Why Your Link Failed Earlier**
+- The `screenshots` folder or `translation.png` was missing.
+- The path in `README.md` used `App Screenshot/translation.png` (with a **space**), which GitHub treats as `App%20Screenshot/translation.png` (broken link).
 
-Let me know if you need more help! 😊
+---
+
+### **Final Result**  
+![Fixed README Example](https://i.imgur.com/8m4B2eH.png)
+
+Let me know if you need further help! 😊
