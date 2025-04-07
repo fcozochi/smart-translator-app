@@ -1,22 +1,15 @@
 
 ---
 
-### **Why This Works**  
-- The screenshot `translation.png` is now **directly in the root folder** (no subfolders).  
-- The path `translation.png` in `README.md` points to the image in the same directory.  
+### **Requirements**:
+1. Ensure `translation.png` is **uploaded to your repository’s root folder**.  
+   - Verify here: [https://github.com/fcozochi/smart-translator-app](https://github.com/fcozochi/smart-translator-app)  
+2. The filename (`translation.png`) must match exactly (no typos).  
 
 ---
 
-### **Verify the Screenshot**  
-After uploading, check that `translation.png` appears in your repository’s root folder:  
-![Screenshot in Root Folder](https://i.imgur.com/5Ml5VvC.png)  
+### **Test the Link**:
+Click the image in your `README.md` to open it directly on GitHub:  
+[https://github.com/fcozochi/smart-translator-app/blob/main/translation.png](https://github.com/fcozochi/smart-translator-app/blob/main/translation.png)
 
----
-
-### **Still Not Working?**  
-If the image doesn’t display:  
-1. Ensure the filename in your repository **exactly matches** `translation.png` (no typos).  
-2. Use this direct link to test:  
-   `https://github.com/fcozochi/smart-translator-app/blob/main/translation.png`  
-
-Let me know if you need more help! 😊
+Let me know if you need more adjustments! 😊
