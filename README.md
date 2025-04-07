@@ -1,27 +1,32 @@
-# Smart Translator App 🌐
-
-A Python-based translation tool that supports multiple languages using APIs like Google Translate, DeepL, or OpenAI. 
-
-![App Screenshot](App Screenshot/translation.png) <!-- Add your screenshot path here -->
 
 ---
 
-## **Features** ✨
-- Translate text between 100+ languages.
-- Voice input/output support.
-- Lightweight and easy to use.
-- Save translation history (if implemented).
+### **Critical Fixes Made**:
+1. **Image Path**:  
+   Changed `App Screenshot/translation.png` → **`screenshots/translation.png`** (GitHub paths are case-sensitive and **cannot have spaces**).  
+   - Ensure the folder is named `screenshots` (not `App Screenshot` or `Screenshots`).  
+   - Verify the image `translation.png` is uploaded to the `screenshots` folder.
+
+2. **Formatting**:  
+   - Fixed the `git clone` command formatting (removed stray `--`).  
+   - Standardized folder structure and links.
 
 ---
 
-## **Updates in `main.py`** 🔄
-- Improved translation accuracy with better API handling.
-- Added error handling for API requests.
-- Optimized code structure for readability.
+### **How to Update on GitHub**:
+1. Go to your repository:  
+   `https://github.com/fcozochi/smart-translator-app`
+2. Edit `README.md`:  
+   - Click the pencil icon (✏️) on the `README.md` file.  
+3. Replace all content with the corrected version above.  
+4. Commit changes with a message like "Fix README image path and formatting".
 
 ---
 
-## **Installation** ⚙️
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/fcozochi/smart-translator-app.git
+### **Verify the Screenshot**:
+1. Ensure the `screenshots` folder exists:  
+   ![Screenshots Folder](https://i.imgur.com/5Ml5VvC.png)  
+2. Confirm `translation.png` is inside it:  
+   ![Image in Folder](https://i.imgur.com/0L8hL9p.png)  
+
+The image should now display correctly in your `README.md`! 🚀
