@@ -1,4 +1,5 @@
 """Voice Translator Pro - Final Working Version with Styling"""
+import sys
 import os
 import tempfile
 import tkinter as tk
@@ -12,6 +13,12 @@ import numpy as np
 import wave
 import pygame
 from pygame import mixer
+
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and PyInstaller """
+    if hasattr(sys, '_MEIPASS'):
+        return os.path.join(sys._MEIPASS, relative_path)
+    return os.path.join(os.path.abspath("."), relative_path)
 
 class TranslatorApp(tk.Tk):
     def __init__(self):
@@ -53,14 +60,17 @@ class TranslatorApp(tk.Tk):
         self.geometry(f"+{x}+{y}")
 
     def initialize_services(self):
-        """Original working service setup"""
-        creds_file = "voice-translator-451412-8dc31221086c.json"
+        """Updated service initialization with proper path handling"""
         try:
-            if not os.path.exists(creds_file):
-                raise FileNotFoundError(f"Credentials file '{creds_file}' not found")
+            creds_path = resource_path(
+                os.path.join("data", "voice-translator-451412-8dc31221086c.json")
+            )
+            
+            if not os.path.exists(creds_path):
+                raise FileNotFoundError(f"Credentials file not found at: {creds_path}")
                 
             self.credentials = service_account.Credentials.from_service_account_file(
-                creds_file,
+                creds_path,
                 scopes=["https://www.googleapis.com/auth/cloud-platform"]
             )
             self.translate_client = translate.Client(credentials=self.credentials)
@@ -77,7 +87,7 @@ class TranslatorApp(tk.Tk):
         mixer.init(frequency=22050, size=-16, channels=2)
 
     def configure_styles(self):
-        """Button styling only - your requested changes"""
+        """Button styling preserved exactly as requested"""
         self.style = ttk.Style()
         self.style.theme_use('clam')
         
@@ -110,7 +120,7 @@ class TranslatorApp(tk.Tk):
         self.style.map("Green.TButton", background=[("active", "#1c6b1c")])
 
     def create_widgets(self):
-        """UI setup with style changes only"""
+        """UI setup with original styling"""
         # Header
         header = tk.Label(
             self, 
@@ -140,7 +150,7 @@ class TranslatorApp(tk.Tk):
             "Hausa": "ha"
         }
 
-        # Language selection
+        # Language selection (preserved layout)
         ttk.Label(self.main_frame, text="From:", font=("Helvetica", 12)).grid(row=0, column=0, padx=10, pady=10, sticky="w")
         self.src_lang = ttk.Combobox(self.main_frame, values=list(self.languages.keys()), font=("Helvetica", 12))
         self.src_lang.set("English")
@@ -151,7 +161,7 @@ class TranslatorApp(tk.Tk):
         self.dest_lang.set("Spanish")
         self.dest_lang.grid(row=0, column=3, padx=10, pady=10, sticky="ew")
 
-        # Text areas
+        # Text areas (original styling)
         text_frame = ttk.Frame(self.main_frame, borderwidth=1, relief="solid", padding="20")
         text_frame.grid(row=1, column=0, columnspan=4, padx=10, pady=10, sticky="nsew")
         
@@ -177,11 +187,10 @@ class TranslatorApp(tk.Tk):
         )
         self.output_text.pack(side="left", expand=True, fill="both")
 
-        # Button row
+        # Button row (original button configuration)
         button_frame = ttk.Frame(self.main_frame)
         button_frame.grid(row=2, column=0, columnspan=4, pady=10, sticky="ew")
 
-        # Buttons with new styling
         self.record_btn = ttk.Button(
             button_frame, 
             text="RECORD", 
@@ -227,7 +236,7 @@ class TranslatorApp(tk.Tk):
             self.main_frame.grid_columnconfigure(i, weight=1)
         self.main_frame.grid_rowconfigure(1, weight=1)
 
-    # Original working audio methods below
+    # Original audio methods with path safety
     def toggle_recording(self):
         if not self.recording:
             self.start_recording()
