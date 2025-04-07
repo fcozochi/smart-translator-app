@@ -1,15 +1,17 @@
 
 ---
 
-### **Requirements**:
-1. Ensure `translation.png` is **uploaded to your repository’s root folder**.  
-   - Verify here: [https://github.com/fcozochi/smart-translator-app](https://github.com/fcozochi/smart-translator-app)  
-2. The filename (`translation.png`) must match exactly (no typos).  
+### **Verify the Fix**
+1. Ensure `translation.png` appears in the root folder:  
+   ![Image in Root Folder](https://i.imgur.com/0L8hL9p.png)  
+2. Test the link in your `README.md`. Clicking the image should open:  
+   `https://github.com/fcozochi/smart-translator-app/blob/main/translation.png`
 
 ---
 
-### **Test the Link**:
-Click the image in your `README.md` to open it directly on GitHub:  
-[https://github.com/fcozochi/smart-translator-app/blob/main/translation.png](https://github.com/fcozochi/smart-translator-app/blob/main/translation.png)
+### **Still Seeing 404?**
+1. Double-check the **exact filename** (e.g., `translation.png` vs. `Translation.png`).  
+2. Ensure the file is in the **`main` branch** (not a different branch).  
+3. Hard-refresh the page (**`Ctrl + F5`** or **`Cmd + Shift + R`**).  
 
-Let me know if you need more adjustments! 😊
+Let me know if you need further help! 😊
