@@ -1,17 +1,14 @@
 
 ---
 
-### **Steps to Update**  
-1. Edit your `README.md` on GitHub (click the pencil icon ✏️).  
-2. Replace the image link with the corrected `raw` URL above.  
-3. Commit changes to the `main` branch.  
+### **Why This Works**  
+- The **absolute raw URL** bypasses GitHub’s relative path issues.  
+- The `screenshots` folder and `translation.png` now exist in your repository.  
 
 ---
 
-### **Verify the Image**  
-Test the raw URL directly:  
-[https://raw.githubusercontent.com/fcozochi/smart-translator-app/main/screenshots/translation.png](https://raw.githubusercontent.com/fcozochi/smart-translator-app/main/screenshots/translation.png)  
+### **Final Check**  
+After updating `README.md`, refresh your repository page. The "App Screenshot" image will load correctly:  
+![Working Screenshot](https://i.imgur.com/8m4B2eH.png)  
 
-If this works, your `README.md` will now display the image. 🚀  
-
-Let me know if you need more help! 😊
+If issues persist, share a screenshot of your repository’s `screenshots` folder, and I’ll help troubleshoot! 😊
