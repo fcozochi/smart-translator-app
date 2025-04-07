@@ -1,20 +1,27 @@
 # Smart Translator App 🌐
 
-A Python-based translator app built with Google Cloud Translation API and packaged with PyInstaller.
+A Python-based translation tool that supports multiple languages using APIs like Google Translate, DeepL, or OpenAI. 
 
-![App Screenshot](assets/screenshot.png)
+![App Screenshot](screenshots/translation.png) <!-- Add your screenshot path here -->
 
-## Features ✨
-- Translate text between multiple languages.
-- Lightweight and fast.
-- Offline mode (planned).
+---
 
-## Installation 📦
-### For Users
-1. Download the latest `main.exe` from [Releases](https://github.com/fcozochi/smart-translator-app/releases).
-2. Double-click the executable to run.
+## **Features** ✨
+- Translate text between 100+ languages.
+- Voice input/output support.
+- Lightweight and easy to use.
+- Save translation history (if implemented).
 
-### For Developers
+---
+
+## **Updates in `main.py`** 🔄
+- Improved translation accuracy with better API handling.
+- Added error handling for API requests.
+- Optimized code structure for readability.
+
+---
+
+## **Installation** ⚙️
 1. Clone the repository:
    ```bash
-   git clone https://github.com/fcozochi/smart-translator-app.git
+   git clone https://github.com/your-username/smart-translator-app.git
