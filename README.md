@@ -2,7 +2,7 @@
 
 A Python-based translation tool that supports multiple languages using APIs like Google Translate, DeepL, or OpenAI.
 
-![screenshots](https://raw.githubusercontent.com/fcozochi/smart-translator-app/main/screenshots/translation.png)
+![App Screenshot](screenshots/translation.png)
 
 ---
 

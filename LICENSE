@@ -1,36 +1,22 @@
 
 ---
 
-### **How to Upload the Screenshot Properly**
-1. **Create the `screenshots` folder**:
-   - Go to your repo: [`https://github.com/fcozochi/smart-translator-app`](https://github.com/fcozochi/smart-translator-app).
-   - Click **`Add file`** → **`Create new file`**.
-   - Type `screenshots/placeholder.txt` (this forces GitHub to create the folder).
-   - Delete `placeholder.txt` afterward.
-
-2. **Upload `translation.png`**:
-   - Navigate to the `screenshots` folder.
-   - Click **`Add file`** → **`Upload files`**.
-   - Drag-and-drop `translation.png` into the upload area.
-   - Commit to the `main` branch.
+#### 2. Verify the Image Exists in `main` Branch
+Your commit added `translation.png` to the `screenshots` folder, but ensure it’s in the **`main` branch** (not a different branch).  
+- Go to the `screenshots` folder in `main`:  
+  [https://github.com/fcozochi/smart-translator-app/tree/main/screenshots](https://github.com/fcozochi/smart-translator-app/tree/main/screenshots)  
+- Confirm `translation.png` is listed.  
 
 ---
 
-### **Verify the Image Link**
-After uploading, test the direct URL:  
-`https://raw.githubusercontent.com/fcozochi/smart-translator-app/main/screenshots/translation.png`
-
-If the image loads, your `README.md` will display it correctly.  
+#### 3. Test the Direct Image Link
+Use this URL (now valid after your commit):  
+[https://raw.githubusercontent.com/fcozochi/smart-translator-app/main/screenshots/translation.png](https://raw.githubusercontent.com/fcozochi/smart-translator-app/main/screenshots/translation.png)
 
 ---
 
-### **Why Your Link Failed Earlier**
-- The `screenshots` folder or `translation.png` was missing.
-- The path in `README.md` used `App Screenshot/translation.png` (with a **space**), which GitHub treats as `App%20Screenshot/translation.png` (broken link).
+### **Final Check**
+1. Update `README.md` with the corrected image path.  
+2. The screenshot will now display on your GitHub page.  
 
----
-
-### **Final Result**  
-![Fixed README Example](https://i.imgur.com/8m4B2eH.png)
-
-Let me know if you need further help! 😊
+If you still see issues, share a screenshot of your repository’s `screenshots` folder, and I’ll help! 😊
