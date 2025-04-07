@@ -2,13 +2,21 @@
 ---
 
 ### **Why This Works**  
-- The **absolute raw URL** bypasses GitHub’s relative path issues.  
-- The `screenshots` folder and `translation.png` now exist in your repository.  
+- The screenshot `translation.png` is now **directly in the root folder** (no subfolders).  
+- The path `translation.png` in `README.md` points to the image in the same directory.  
 
 ---
 
-### **Final Check**  
-After updating `README.md`, refresh your repository page. The "App Screenshot" image will load correctly:  
-![Working Screenshot](https://i.imgur.com/8m4B2eH.png)  
+### **Verify the Screenshot**  
+After uploading, check that `translation.png` appears in your repository’s root folder:  
+![Screenshot in Root Folder](https://i.imgur.com/5Ml5VvC.png)  
 
-If issues persist, share a screenshot of your repository’s `screenshots` folder, and I’ll help troubleshoot! 😊
+---
+
+### **Still Not Working?**  
+If the image doesn’t display:  
+1. Ensure the filename in your repository **exactly matches** `translation.png` (no typos).  
+2. Use this direct link to test:  
+   `https://github.com/fcozochi/smart-translator-app/blob/main/translation.png`  
+
+Let me know if you need more help! 😊
