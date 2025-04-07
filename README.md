@@ -2,7 +2,7 @@
 
 A Python-based translation tool that supports multiple languages using APIs like Google Translate, DeepL, or OpenAI. 
 
-![App Screenshot](screenshots/translation.png) <!-- Add your screenshot path here -->
+![App Screenshot](App Screenshot/translation.png) <!-- Add your screenshot path here -->
 
 ---
 
