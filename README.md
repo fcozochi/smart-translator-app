@@ -24,4 +24,4 @@ A Python-based translation tool that supports multiple languages using APIs like
 ## **Installation** ⚙️
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/smart-translator-app.git
+   git clone https://github.com/fcozochi/smart-translator-app.git
