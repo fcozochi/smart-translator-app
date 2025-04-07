@@ -1,17 +1,30 @@
 
 ---
 
-### **Verify the Fix**
-1. Ensure `translation.png` appears in the root folder:  
-   ![Image in Root Folder](https://i.imgur.com/0L8hL9p.png)  
-2. Test the link in your `README.md`. Clicking the image should open:  
-   `https://github.com/fcozochi/smart-translator-app/blob/main/translation.png`
+### **Key Fixes**:
+1. **Image Filename**:  
+   - The working link uses `translation.PNG` (uppercase extension). Ensure the file is named **exactly** `translation.PNG` (not `.png`).  
+   - GitHub is **case-sensitive**, so `translation.png` ≠ `translation.PNG`.
+
+2. **Clickable Image**:  
+   - The syntax `[![Alt Text](image_url)](link_url)` creates a clickable image.  
+   - The image URL and link URL both point to `translation.PNG`.
 
 ---
 
-### **Still Seeing 404?**
-1. Double-check the **exact filename** (e.g., `translation.png` vs. `Translation.png`).  
-2. Ensure the file is in the **`main` branch** (not a different branch).  
-3. Hard-refresh the page (**`Ctrl + F5`** or **`Cmd + Shift + R`**).  
+### **Steps to Verify**:
+1. Confirm the filename `translation.PNG` exists in the root folder of your `main` branch:  
+   ![File in Root Folder](https://i.imgur.com/0L8hL9p.png)  
 
-Let me know if you need further help! 😊
+2. Test the direct link:  
+   [https://github.com/fcozochi/smart-translator-app/blob/main/translation.PNG](https://github.com/fcozochi/smart-translator-app/blob/main/translation.PNG)  
+
+3. Update your `README.md` with the code above.
+
+---
+
+### **If the Error Persists**:
+- **Re-upload the image**: Delete the existing `translation.PNG` and upload it again to the **root folder** to fix typos/case issues.  
+- **Hard-refresh**: Use `Ctrl + F5` (Windows) or `Cmd + Shift + R` (Mac) to clear cached versions of the page.  
+
+Let me know if you need further adjustments! 😊
