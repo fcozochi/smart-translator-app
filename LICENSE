@@ -1,30 +1,14 @@
 
----
+### Key Changes:
+1. Fixed image URL to use `raw.githubusercontent.com` for direct display.
+2. Added clear installation steps for both source code and executable users.
+3. Simplified folder structure to match your repository.
+4. Added troubleshooting section for common issues.
+5. Standardized formatting across sections.
 
-### **Key Fixes**:
-1. **Image Filename**:  
-   - The working link uses `translation.PNG` (uppercase extension). Ensure the file is named **exactly** `translation.PNG` (not `.png`).  
-   - GitHub is **case-sensitive**, so `translation.png` ≠ `translation.PNG`.
-
-2. **Clickable Image**:  
-   - The syntax `[![Alt Text](image_url)](link_url)` creates a clickable image.  
-   - The image URL and link URL both point to `translation.PNG`.
-
----
-
-### **Steps to Verify**:
-1. Confirm the filename `translation.PNG` exists in the root folder of your `main` branch:  
-   ![File in Root Folder](https://i.imgur.com/0L8hL9p.png)  
-
-2. Test the direct link:  
-   [https://github.com/fcozochi/smart-translator-app/blob/main/translation.PNG](https://github.com/fcozochi/smart-translator-app/blob/main/translation.PNG)  
-
-3. Update your `README.md` with the code above.
-
----
-
-### **If the Error Persists**:
-- **Re-upload the image**: Delete the existing `translation.PNG` and upload it again to the **root folder** to fix typos/case issues.  
-- **Hard-refresh**: Use `Ctrl + F5` (Windows) or `Cmd + Shift + R` (Mac) to clear cached versions of the page.  
+To use this:
+1. Copy the entire code above.
+2. Replace your existing `README.md` content.
+3. Commit and push to GitHub.
 
 Let me know if you need further adjustments! 😊
