@@ -1,14 +1,18 @@
 
-### Key Changes:
-1. Fixed image URL to use `raw.githubusercontent.com` for direct display.
-2. Added clear installation steps for both source code and executable users.
-3. Simplified folder structure to match your repository.
-4. Added troubleshooting section for common issues.
-5. Standardized formatting across sections.
 
-To use this:
-1. Copy the entire code above.
-2. Replace your existing `README.md` content.
-3. Commit and push to GitHub.
+---
 
-Let me know if you need further adjustments! 😊
+### **Steps to Update**  
+1. Edit your `README.md` on GitHub (click the pencil icon ✏️).  
+2. Replace the image link with the corrected `raw` URL above.  
+3. Commit changes to the `main` branch.  
+
+---
+
+### **Verify the Image**  
+Test the raw URL directly:  
+[https://raw.githubusercontent.com/fcozochi/smart-translator-app/main/screenshots/translation.png](https://raw.githubusercontent.com/fcozochi/smart-translator-app/main/screenshots/translation.png)  
+
+If this works, your `README.md` will now display the image. 🚀  
+
+Let me know if you need more help! 😊

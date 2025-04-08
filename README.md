@@ -11,7 +11,7 @@ A Python-based translation tool that supports multiple languages using APIs like
 - Voice input/output support.
 - Lightweight and easy to use.
 - Save translation history (if implemented).
-- A good companion for a tourist.
+
 ---
 
 ## **Updates in `main.py`** 🔄
@@ -25,7 +25,6 @@ A Python-based translation tool that supports multiple languages using APIs like
 1. Clone the repository:
    ```bash
    git clone https://github.com/fcozochi/smart-translator-app.git
-
 
 [![Latest Release](https://img.shields.io/github/v/release/fcozochi/smart-translator-app?label=Download&style=flat-square)](https://github.com/fcozochi/smart-translator-app/releases/latest)
 
