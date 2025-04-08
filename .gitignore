@@ -1,2 +1,7 @@
 # .gitignore
-data/*.json
+dist/
+build/
+*.spec
+__pycache__/
+*.rar
+data/voice-translator-*.json  # Remove credentials!
